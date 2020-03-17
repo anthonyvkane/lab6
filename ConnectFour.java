@@ -103,7 +103,7 @@ public class ConnectFour {
                     System.out.println("Player 1 won the game!");
                     break;
                 }
-                if(checkDraw(array) == true){
+                if(checkDraw(array) == true){ //checks for a draw
                     System.out.println("Draw. Nobody wins.");
                     break;
                 }
